@@ -1,0 +1,43 @@
+.img-banner{
+    width: 100%;
+    transition: all 0.5s; 
+}
+.Carousel{
+    width: 100%; 
+}
+.img-banner:hover{
+    transform:translateX(-25px); 
+}
+.img-banner1 {
+    z-index: -1;
+}
+.carousel-control-next-icon{
+    z-index: 100;
+}
+span.carousel-control-next-icon {
+    margin-bottom: 250px;
+    margin-left: 110px;
+    z-index: 100;
+}
+span.carousel-control-prev-icon {
+    margin-bottom: 250px;
+    margin-right: 110px;
+    z-index: 100;
+}
+@media only screen and (max-width:992px) {
+    .img-banner1 {
+        display: none;
+    }
+
+}
+
+.carousel-indicators [data-bs-target] {
+    display: none;
+}
+body{
+    box-sizing: border-box;
+    background-color:#e7e7e7 ;
+    font-family:"Amazon Ember",Arial,sans-serif;
+
+}
+

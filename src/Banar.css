@@ -1,0 +1,20 @@
+.img-banner{
+    width: 100%;
+    transition: all 0.5s;
+}
+Carousel{
+    width: 100%;
+}
+
+span.carousel-control-next-icon {
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+span.carousel-control-prev-icon {
+    margin-bottom: 200px;
+    margin-right: 100px;
+}
+.carousel-indicators [data-bs-target]{
+    display: none;
+}
+

@@ -1,0 +1,170 @@
+.photo{
+   margin: auto;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.contactUs{
+   border-bottom: 1px solid black;
+   margin-bottom: 20px;
+}
+
+.left{
+   width: 50%;
+   
+}
+.span{
+   color: rgb(141, 137, 137);
+   font-size: 20px;
+}
+.link{
+   text-decoration: none;
+   font-size: 17px;
+}
+.link:hover{
+   color: blueviolet;
+}
+.google{
+   width: 100%;
+   height: 400px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+@media only screen and (max-width:768px) {
+   .left{
+      width: 100%;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      
+   }
+   .photo{
+      width: 100%;
+      height: 300px;
+      margin-bottom: 40px;
+   }
+   
+}
+
+            /* form */
+form{
+   margin: auto;
+   width: 350px;
+   border: 1px solid rgb(207, 193, 193);
+   border-radius: 5px;
+   margin-top: 20px;
+}
+.imgForm{
+   width: 100px;
+   padding-left: 623px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.form h2{
+   color: rgba(26, 25, 25, 0.774);
+   font-family:"Amazon Ember",Arial,sans-serif;
+   padding-left: 30px;
+   padding-top: 20px;
+}
+.form label{
+   color: rgba(14, 13, 13, 0.863);
+   font-family:"Amazon Ember",Arial,sans-serif;
+   padding-left: 30px;
+   font-weight: 800;
+   font-size: 13px;
+}
+.PasswordsMust label{
+   padding-left: 30px;
+   font-size: 10px;
+   color: rgba(253, 5, 5, 0.808);
+}
+.form input{
+   margin-top: 5px;
+   margin-left: 30px;
+   width: 280px;
+   height: 25px;
+   border-radius: 3px;
+   border: 1px solid gray;
+   outline:none;
+}
+.form button{
+   margin-top: 15px;
+   margin-left: 30px;
+   width: 287px;
+   height: 30px;
+   background-color:   #eec662;
+   border-radius: 3px;
+   border: 1px solid gray;
+   color: rgb(14, 13, 13);
+   cursor:pointer;
+}
+.form h5{
+   color: rgba(14, 13, 13, 0.774);
+   font-family:"Amazon Ember",Arial,sans-serif;
+   padding-left: 30px;
+   font-size: 12px;
+   margin-top: 20px;
+   padding-right: 15px;
+}
+.link{
+   font-size: 12px;
+   color: rgb(0, 110, 255);
+   text-decoration: none;
+}
+.link:hover{
+   border-bottom: 1px solid crimson;
+   color:crimson;
+   
+}
+.sign{
+   display: flex;
+   text-align: center;
+}
+.signLink{
+   color: rgb(0, 110, 255);
+   padding-left: 5px;
+   font-size: 13px;
+
+}
+.signLink:hover{
+   border-bottom: 1px solid crimson;
+   color:crimson;
+}
+.AlreadyHaveAnAccount{
+   color: rgba(14, 13, 13, 0.774);
+   padding-left: 30px;
+   font-size: 13px;
+}
+.formFooter{
+   text-align: center;    
+
+}
+.formFooter h5{
+   color: rgba(14, 13, 13, 0.774);
+   font-family:"Amazon Ember",Arial,sans-serif;
+   font-size: 13px;
+   margin-top: 20px;
+}
+.formFooter button{
+   width: 350px;
+   height: 30px;
+   color: rgba(14, 13, 13, 0.774);
+   margin-bottom: 20px;
+}
+.formFooterLink{
+   font-size: 10px;
+   margin-left: 15px;
+   font-family:"Amazon Ember",Arial,sans-serif;
+   text-decoration: none;
+   color: rgb(0, 110, 255);
+}
+.formFooterLink:hover{
+   border-bottom: 1px solid crimson;
+   color:crimson;
+}
+.formFooter h4{
+   font-size: 12px;
+   color: rgba(48, 45, 45, 0.774);
+
+}

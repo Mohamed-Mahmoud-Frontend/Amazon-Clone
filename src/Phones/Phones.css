@@ -1,0 +1,83 @@
+.proud-header {
+    padding-left: 20px;
+    height: 600px;
+    width: 220px;
+    background: rgb(255, 255, 255);
+    margin-left: 12px ;
+  }
+  
+  .proud-header h2 {
+    max-height: 60px;
+    min-height: 55px;
+    overflow: hidden;
+    max-width: 350px;
+    color: #0f1111;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  
+  .proud-body img {
+    width: 200px;
+  }
+  
+  .proud-footer a {
+    color: #00788d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .proud-footer a:hover {
+    text-decoration: underline;
+    color: rgb(241, 94, 9);
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .proud-header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  
+    }
+    .proud-header h2 {
+      width: 80%;
+    }
+    .proud-header h2 {
+      max-height: 60px;
+      min-height: 55px;
+      overflow: hidden;
+      max-width: 350px;
+      color: #0f1111;
+      font-size: 21px;
+      line-height: 25px;
+      font-weight: bold;
+      padding: 5px;
+      margin-left: 40px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width:992px) {
+    .proud-header {
+      padding-left: 20px;
+      height: 600px;
+      width: 220px;
+      background: rgb(255, 255, 255);
+      margin-left: 12px ;
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (min-width: 990px) and (max-width:1400px) {
+    .proud-header {
+      padding-left: 4px;
+      height: 600px;
+      width: 202px;
+      background: rgb(255, 255, 255);
+      margin-left: 8px ;
+      margin-top: 8px;
+      overflow-x: hidden;
+    }
+  }
